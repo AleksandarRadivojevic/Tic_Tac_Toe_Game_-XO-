@@ -1,0 +1,75 @@
+#logo {
+	float: right;
+}
+#humanOrComp {
+	float: right;
+	font-style: italic;
+}
+#computerValue {
+	width: 100%;
+}
+#player1 {
+	width: 50%;
+	margin-top: 19px;
+}
+#button-addon2 {
+	border-radius: 5px;
+}
+#colorPlayer1 {
+	width: 20px;
+	height: 10px;
+	background: red;
+}
+#player2 {
+	width: 50%;
+	float: right;
+	clear: both;
+}
+#colorPlayer2 {
+	width: 20px;
+	height: 10px;
+	background: blue;
+}
+#container {
+	height: 50%;
+}
+#rulers {
+	width: 100%;
+}
+#btnStartGame {
+	margin-left: 40%;
+}
+
+#backgroundOfGame {
+	margin-top: 50px;
+	height: 500px;
+	width: 500px;
+	margin: auto;
+	background: #ccc;
+	display: flex;
+	flex-flow: column wrap;
+}
+.thumb {
+	height: 150px;
+	width: 150px;
+	border-radius: 10px;
+	border: 1px solid white;
+	background: aqua;
+	margin: auto auto;
+	font-size: 6em;
+	text-align: center;
+	color: brown;
+	font-family: Pointy Demo;
+
+}
+.thumb:hover {
+	border: 1px solid blue;
+	cursor: pointer;
+}
+#winner {
+	text-align: center;
+}
+#winMessage, #winnerName {
+	font-family: Pointy Demo;
+	font-size: 2em;
+}
